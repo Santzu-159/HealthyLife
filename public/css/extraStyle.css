@@ -1,0 +1,198 @@
+/* Color del texto al poner el raton encima siguiendo la paleta y terminologia de bootstrap */
+html, body {
+    height: 100%;
+}
+
+.text-outline-primary:hover {
+    color:#3490dc !important;
+}
+
+.text-outline-secondary:hover {
+    color:#6c757d !important;
+}
+
+.text-outline-success:hover {
+    color:#38c172 !important;
+}
+
+.text-outline-danger:hover {
+    color:#e3342f !important;
+}
+
+.text-outline-warning:hover {
+    color:#ffed4a !important;
+}
+
+.text-outline-info:hover {
+    color:#6cb2eb !important;
+}
+
+.text-outline-light:hover {
+    color:#f8f9fa !important;
+}
+
+.text-outline-dark:hover {
+    color:#343a40 !important;
+}
+
+.text-outline-muted:hover {
+    color:#6c757d !important;
+}
+
+.text-outline-white:hover {
+    color:#fff !important;
+}
+
+.text-outline-darkorange:hover {
+    color: darkorange !important;
+}
+
+.text-darkorange {
+    color: darkorange !important;
+}
+
+.btn-outline-darkorange:hover {
+    background: darkorange !important;
+}
+
+.bg-darkorange {
+    background: darkorange !important;
+}
+
+.bg-menuColor {
+    background-color: #2f4859 !important;
+}
+
+.mt-7 {
+    margin-top: 7rem !important;
+}
+
+/*  */
+
+.size-icon {
+    width: 35px !important;
+}
+
+.size-logo {
+    width: 200px !important;
+}
+
+.size-big {
+    width: 800px !important;
+    font-size: 50px !important;
+}
+
+.txt-style-healthy {
+    width:200px;
+    font-size: 18px !important;
+    font-family:Arial, Helvetica, sans-serif;
+    position:relative;
+    color: white !important;
+}
+
+.txt-style-intro {
+    margin-top:7%;
+    margin-left:3%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align:center;
+    position:relative;
+    font-size:24px;
+}
+
+.ml-30 {
+    margin-left:30px;
+}
+
+#textIntroC{
+    margin-top: 150px !important;
+    overflow:hidden;
+}
+
+#textIntroC p a{
+    text-decoration:none;
+    color:#2f4859;
+    animation-name: cambioColor;
+   animation-duration: 3s;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;/*para que vuelva a su posicion inicial */
+   position: relative;
+   -webkit-transition: font-size .5s ease;
+    -moz-transition: font-size .5s ease;
+    -o-transition: font-size .5s ease;
+    transition: font-size .5s ease;
+}
+
+#textIntroC p a:hover{
+    text-decoration:none;
+    font-size: 55px !important;
+}
+
+@keyframes cambioColor{
+    from { color:#0090b4;}
+    to{ color:#ff7300;}
+}
+
+#irArriba img{
+    width:50px;
+    height: 50px;
+    transition-property: transform;
+    transition-duration: 0.5s;
+    transition: width 0.5s, height 0.5s, margin 0.5s; 
+        
+}
+
+#irArriba img:hover{
+    animation-name: rotate; 
+    animation-duration: 0.5s; 
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    width:80px;
+    height: 80px;
+}
+
+@keyframes rotate {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
+
+#listaCentro img{
+    margin-top:5px;
+    width:60px;
+    height:60px; 
+    transition: width 1s, height 1s, margin 1s;
+}
+
+#listaCentro img:hover{
+    margin-top:20px;
+    width:80px;
+    height:80px; 
+    margin: 5 auto;
+}
+
+#titleFooter {
+    margin-top: 1em;
+    font-size:20px;
+    color:white;
+    text-decoration-line: underline;
+}
+
+#politicas p{
+    font-size:20px;
+    color:white;
+    text-decoration-line: underline;
+
+}
+#politicas li{
+    transition: transform .2s; /* Animation */
+}
+
+#politicas li:hover{
+    
+    transform: scale(1.5);
+}
+#politicas li a{
+    text-decoration:none;
+    color:#2f4859;
+    font-size:18px;
+
+}

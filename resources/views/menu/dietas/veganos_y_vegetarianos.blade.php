@@ -1,0 +1,1 @@
+@include('layouts.listDiets', ['category'=>'veganos_y_vegetarianos'])

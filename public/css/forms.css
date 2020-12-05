@@ -1,0 +1,11 @@
+input:required {
+    background-color: yellow;
+}
+input:required:focus {
+    background-color: white;
+}
+
+.required::before{
+    color: red;
+    content:"* ";
+}
